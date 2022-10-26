@@ -3,10 +3,14 @@
 *{transition:ease-in 1s;
     padding: 0;
     margin: 0;
+    
 }
 
 body{ 
+    background-image: url(/namroud-gorguis-FZWivbri0Xk-unsplash.jpg);
+   background-repeat: no-repeat;
    
+
     background-color: #f0efe9;
 }
 .header {
@@ -19,6 +23,8 @@ body{
     
     
 }
+
+
 
 .header a:hover{
     font-weight: bold;
@@ -39,8 +45,9 @@ body{
 .login2 button:hover{color: black;}
   .login2 button{
     position: relative;
-    left: 1185px;
-    top: -95px;
+    left: 1385px;
+    top: -81px;
+    text-align: center;
    background-color:#f9d783 ;
     border-top-left-radius: 0%;
     border-bottom-left-radius: 0%;
@@ -52,6 +59,7 @@ body{
 
 
 button{
+    
     cursor: pointer;
     letter-spacing: 0.8px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -62,11 +70,11 @@ button{
     padding: 11px;
     height: 45px;
     border: none;
-    background-color: #ececec;
+    background-color: white;
     font-size: 16px;
     position: relative;
-    top: -50px;
-    left: 1100px;
+    top: -36px;
+    left: 1300px;
     transition:.3s;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
@@ -148,40 +156,7 @@ a .submit{
 
 
 
-.container{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-.metronome{
-    position:relative ; top: 500px;
-    display: flex;
-    border: 1px solid black;
-    flex-direction: column;
-    width: 300px;
-    height: 250px;
-    justify-content: space-between;
-
-}
-
-.bpm-display{
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    color :#fa545c;
-
-}
-.bpm-display .tempo{
-    font-size:4em
-}
-.tempo-text{
-   font-size: .8em;
-   text-transform: uppercase;
-   text-align: center;
-   
-}
 
 
 
@@ -212,6 +187,7 @@ a .submit{
 }
 
 .action {
+   
     position: fixed;
     bottom: 50px;
     left: 50px;
@@ -223,7 +199,7 @@ a .submit{
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
   }
   .action span {
-
+    text-align: center;
     left: 2px;
     position: relative;
     width: 100%;
@@ -279,4 +255,7 @@ a .submit{
   .action ul li:hover img {  
     opacity: .8;
     transform: scale(1.0);
+  }
+  strong{
+    position: relative;
   }

@@ -8,3 +8,39 @@ body{
 
 }
 
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.metronome{
+    position:relative ;
+     right: 50%;
+    
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    justify-content: space-between;
+
+}
+
+.bpm-display{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color :#fa545c;
+
+}
+.bpm-display .tempo{
+    font-size:4em
+}
+.tempo-text{
+   font-size: .8em;
+   text-transform: uppercase;
+   text-align: center;
+   
+}
